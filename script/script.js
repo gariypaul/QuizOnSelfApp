@@ -11,10 +11,13 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions=[];
 
-let questions = [{question:"What is 2 + 2", choice1:"2",choice2:"4", choice3:"3", choice4:"4", answer:"2"},
-{question:"What is 2 + 1", choice1:"2",choice2:"4", choice3:"3", choice4:"4", answer:"3"},
-{question:"What is 2 + 0", choice1:"2",choice2:"4", choice3:"3", choice4:"4", answer:"1"},
-{question:"What is 2 + 4", choice1:"7",choice2:"4", choice3:"3", choice4:"6", answer:"4"},
+let questions =[{question:"What city was I born in ?", choice1:"Mombasa",choice2:"Homa Bay", choice3:"Ruiru", choice4:"Nairobi", answer:"4"},
+{question:"What is(are) my middle name(s)", choice1:"Odhiambo",choice2:"Abiero", choice3:"1 and 2", choice4:"none", answer:"3"},
+{question:"What day was my birthday", choice1:"Friday",choice2:"Monday", choice3:"Thursday", choice4:"Sunday", answer:"1"},
+{question:"How long has my longest relationship lasted?", choice1:"12 months",choice2:"16 months", choice3:"3 months", choice4:"6 months", answer:"2"},
+{question:"What is my favourite knowledge field (Not necessarily in an academic sense)?", choice1:"Chemistry",choice2:"Philosophy", choice3:"Ethics", choice4:"Physics", answer:"4"},
+{question:"What is my highest core belief ?", choice1:"peace",choice2:"creativity", choice3:"competence", choice4:"success", answer:"1"},
+{question:"What is my favorite book genre ?", choice1:"romance",choice2:"thriller", choice3:"fantasy", choice4:"Literary fiction", answer:"4"},
 ];
 
 
