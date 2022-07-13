@@ -78,11 +78,11 @@ choices.forEach(choice=>{
 
         if(classToApply==='correct'){
             incrementScore(SCORE_POINTS);
-            
+            hintExpSpan.textContent = currentQuestion.explanation;
         }
         selectedChoice.parentElement.classList.add(classToApply);
 
-        hintExpSpan.textContent = currentQuestion.explanation;
+       
 
         setTimeout(()=>{
             selectedChoice.parentElement.classList.remove(classToApply)
