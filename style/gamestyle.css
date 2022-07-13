@@ -63,7 +63,10 @@ body{
     width: 0%;
 }
 
-
+#hint{
+    font-size: 1.5rem;
+    font-style: italic;
+}
 
 
 @media screen and (max-width: 768px){
@@ -72,3 +75,4 @@ body{
 
     }
 }
+
